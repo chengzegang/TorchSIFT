@@ -1,3 +1,5 @@
+
+
 ```python
 import utils, sift
 from jit_ransac import ransac, ratio_test_threshold_match
@@ -53,6 +55,7 @@ class KeyPoints:
 
 
 ```python
+# example.jpg should be in the current working directory
 example_image_path = "example.jpg"
 image = read_image(example_image_path, ImageReadMode.RGB)
 
@@ -89,7 +92,6 @@ side_by_side
 
 
 
-
 ```python
 
 
@@ -121,6 +123,3 @@ lines_with_ransac
 
     
 ![png](README_files/README_5_0.png)
-    
-
-
